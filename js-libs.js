@@ -1,4 +1,4 @@
-function loadDoc(url) {
+function loadScript(url) {
   
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
