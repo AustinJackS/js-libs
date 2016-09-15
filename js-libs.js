@@ -8,5 +8,5 @@ function loadScript(url) {
   };
   xhttp.open("GET", url, true);
   xhttp.send();
-  eval(code)
+  eval(window.code)
 }
